@@ -16,11 +16,12 @@ public class CommandExecutor {
     }
 
     public void addCommand(Command command) {
+        commands.add(command);
 
     }
 
     public void removeCommand(Command command) {
-
+        commands.remove(command);
     }
 
     public void execute(String input) {

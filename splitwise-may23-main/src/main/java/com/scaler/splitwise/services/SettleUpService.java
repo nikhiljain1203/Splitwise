@@ -17,4 +17,6 @@ import java.util.*;
 @Service
 public class SettleUpService {
 
+    public void settleUpGroup(Long groupId) {
+    }
 }

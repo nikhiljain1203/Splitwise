@@ -29,7 +29,8 @@ public class SettleUpGroup implements Command{
 
         Long groupId = Long.valueOf(words.get(1));
 
-        SettleUpGroupRequestDto settleUpGroupRequestDto = new SettleUpGroupRequestDto();
+        SettleUpGroupRequestDto settleUpGroupRequestDto =
+                new SettleUpGroupRequestDto();
         settleUpGroupRequestDto.setGroupId(groupId);
 
         SettleUpGroupResponseDto responseDto =

@@ -10,3 +10,7 @@ public interface SettleUpStrategy {
 
     List<Expense> settleUp(List<Expense> expensesToSettle);
 }
+
+// Settle - Bunch of expenses
+// User - expenses
+// group - expenses

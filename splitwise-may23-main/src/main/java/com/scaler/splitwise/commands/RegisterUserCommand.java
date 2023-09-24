@@ -10,6 +10,8 @@ public class RegisterUserCommand implements Command {
     Expected Input :-
 
         registerUser <userName> <phoneNumber> <password>
+        registerUser nikhil 1234 password
+        register nikhil 1234 password
      */
 
 
